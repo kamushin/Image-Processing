@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FixedPoint", "FixedPoint\FixedPoint.vcproj", "{73EA289D-59C6-42CB-B9EA-DF68ADA1F100}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcproj", "{B20D6C72-FD00-4175-91BD-D2B0FEC4C23E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73EA289D-59C6-42CB-B9EA-DF68ADA1F100} = {73EA289D-59C6-42CB-B9EA-DF68ADA1F100}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73EA289D-59C6-42CB-B9EA-DF68ADA1F100}.Debug.ActiveCfg = Debug|Win32
+		{73EA289D-59C6-42CB-B9EA-DF68ADA1F100}.Debug.Build.0 = Debug|Win32
+		{73EA289D-59C6-42CB-B9EA-DF68ADA1F100}.Release.ActiveCfg = Release|Win32
+		{73EA289D-59C6-42CB-B9EA-DF68ADA1F100}.Release.Build.0 = Release|Win32
+		{B20D6C72-FD00-4175-91BD-D2B0FEC4C23E}.Debug.ActiveCfg = Debug|Win32
+		{B20D6C72-FD00-4175-91BD-D2B0FEC4C23E}.Debug.Build.0 = Debug|Win32
+		{B20D6C72-FD00-4175-91BD-D2B0FEC4C23E}.Release.ActiveCfg = Release|Win32
+		{B20D6C72-FD00-4175-91BD-D2B0FEC4C23E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+CV_BGR2HSV
+void cvCvtColor( const CvArr* src, CvArr* dst, int code );

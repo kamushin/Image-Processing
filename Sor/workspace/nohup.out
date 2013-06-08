@@ -1,0 +1,2 @@
+xcb_connection_has_error() 已返回 true
+sublime_text: Fatal IO error 11 (资源暂时不可用) on X server :0.0.

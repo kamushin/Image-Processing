@@ -1,0 +1,4 @@
+OpenCV Error: Assertion failed (dst.data == dst0.data) in cvCvtColor, file /build/buildd/opencv-2.3.1/modules/imgproc/src/color.cpp, line 3175
+terminate called after throwing an instance of 'cv::Exception'
+  what():  /build/buildd/opencv-2.3.1/modules/imgproc/src/color.cpp:3175: error: (-215) dst.data == dst0.data in function cvCvtColor
+

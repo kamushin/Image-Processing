@@ -1,0 +1,21 @@
+main：
+	读入了一张BMP
+	进行高斯模糊后退出
+
+
+ap_bmp,ap_h: 
+	和bmp有关的读取存储和转换函数
+
+
+rgb2gray.c rgb2gray.h: 
+	通道转换的函数
+
+sobel.h
+	sobel算法的函数
+	
+filter.c filter.h:
+	高斯模糊的函数
+测试数据：
+	Input :frame10.bmp frame11.bmp
+	My Output :10.bmp 11.bmp
+

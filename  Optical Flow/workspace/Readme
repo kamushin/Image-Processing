@@ -1,0 +1,19 @@
+main：
+	读入了一张BMP
+	进行高斯模糊后退出
+
+bitmap.h: 
+	和bmp有关的读取存储和转换函数
+
+algo.h:
+	与图片处理相关的算法函数
+
+
+测试数据：
+	Input :frame10.bmp frame11.bmp
+
+
+相比之前的版本，重构了大部分的代码，把三个通道封装在bitmap里面，
+其中bitmap的data部分不会被改动。通过三个float的通道进行各种图像处理的算法
+
+

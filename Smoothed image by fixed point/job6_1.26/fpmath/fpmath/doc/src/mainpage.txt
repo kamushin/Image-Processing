@@ -1,0 +1,9 @@
+/*! 
+\mainpage FPML (Fixed Point Math Library)
+
+\section motivation_section Motivation
+
+The Fixed Point Math Library has been born out of the need to speed up 
+calculations, first in the specific realm of image processing and image 
+analysis and then in general. 
+*/

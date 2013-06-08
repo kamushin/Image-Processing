@@ -1,0 +1,16 @@
+main：
+	读入了一张BMP
+	转换成HSV后保存
+
+
+ap_bmp,ap_h: 
+	和bmp有关的读取存储和转换函数
+
+
+rgb2hsv.c rgb2hsc.h: 
+	通道转换的函数
+	
+测试数据：
+	Input :beach.bmp
+	My Output :b.bmp
+	Opcv Output :a.bmp
